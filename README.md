@@ -75,7 +75,7 @@ You have to change `int led = 9` to `int led = 11` in order to use pin 11. The `
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-![schematic](img/diagram.JPG)
+![schematic](img/diagram.jpg)
 
 The buttons are on one side of the circuit board, and the processor and connection to the screen are on the other. The button side has many different connections, and it is difficult to tell how they are connected to each other and the processor.
 

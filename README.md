@@ -75,6 +75,8 @@ You have to change `int led = 9` to `int led = 11` in order to use pin 11. The `
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+The device I took apart was a [Wexford Pocket Calculator](https://www.walgreens.com/store/c/wexford-pocket-calculator/ID=prod6163413-product).
+
 ![schematic](img/diagram.jpg)
 
 The buttons are on one side of the circuit board, and the processor and connection to the screen are on the other. The button side has many different connections, and it is difficult to tell how they are connected to each other and the processor.
@@ -105,7 +107,7 @@ I thought the easiest buttons to hijack would be the ON and OFF buttons because 
 
 I was concerned that the 1.5V battery would not be enough to power the light, because it is less than the 5V we had been using thus far in the lab. However, since the resistor is also smaller than the one used in the lab, the current was adequate to light the LED dimly.
 
-The following image shows the finished product with the LED taped across the resistor. The tape was not the most sturdy solution, but it was sufficient to pick up the calculator, push the buttons and activate/deactivate the light, as shown in the video. The light turned on and off as expected.
+The following image shows the finished product with the LED taped across the resistor. The tape was not the most sturdy solution, but it was sufficient to pick up the calculator, push the buttons and activate/deactivate the light, as shown in the [video](https://youtu.be/QWwZlxGdvoU). The light turned on and off as expected.
 
 ![frankencalc](img/frankencalc.JPG)
 
@@ -113,7 +115,7 @@ In addition to hijacking the ON/OFF buttons, I also experimented with connecting
 
 ![solar light](img/diagram-solar.JPG)
 
-One interesting difference observed between the solar panel and the buttons is that the solar panel activates the LED more gradually. This suggests there is a delay between the solar panel absorbing the light and converting it into power for the device.
+One interesting difference observed between the solar panel and the buttons is that the solar panel activates the LED more gradually. This suggests there is a delay between the solar panel absorbing the light and converting it into power for the device, and the amount of power the solar panel provides varies with the amount of light.
 
 ### 3. Build your light!
 
